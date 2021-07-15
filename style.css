@@ -1,0 +1,407 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100vw;
+}
+/*Header******************************************/
+
+header{
+
+       background:url('images/shurii.png')no-repeat;
+       background-color:black;
+       width:100%;
+       height:100vh;
+}
+
+.neonText {
+    display: flex;
+    animation: flicker 1.5s infinite alternate;
+    color: #1D2A67;
+}
+
+h1 {display: flex;
+    font-size: 100.20rem;    
+}
+
+@keyframes flicker {
+      
+0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px rgb(14, 172, 184), 
+    0 0 80px rgb(112, 25, 170),
+    0 0 90px rgb(0, 255, 242),
+    0 0 100px rgb(162, 0, 255),
+    0 0 100px rgb(194, 4, 219),
+    0 0 150px rgb(213, 34, 219);
+    
+    
+}
+20%, 24%, 55% {        
+        text-shadow: none;
+}    
+}
+
+header .container {
+    display:flex;
+    justify-content: flex-end;
+    margin-right:10%;   
+}
+  
+header .container h1{
+    font-weight: 500px;
+    font-size: 800%;
+    margin-top:20%;
+}
+
+/*******************fin header*******************************/
+
+
+/*****************le body****************************/
+section {background:black;
+background: url('images/gif\ background.gif')no-repeat center / cover;
+background-image: rgba(0red, 0green, 0blue, 1alpha1);}
+
+.section1, .section2, .section3, .section4, .section5 .section6 p {color:white}
+
+section .b {background: black ;}
+
+/*****************lebody****************************/
+
+
+
+/**************************************************************************/
+section.intro{
+    padding: 10%;
+}
+
+.intro p{
+    color: white;
+    text-align: center;
+    font-family:'Abril face';
+    font-size:35px;
+    background: black;
+}
+
+h2 .txt {
+    width: 100%;
+    height: 100%;
+    position: relative;
+ ;
+    
+}
+
+h2 {
+    position: relative;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 1000px;
+    font-family: 'Abril face';
+    margin-bottom: 10px;
+    color:white;
+    max-width: 300%;
+    background: black;
+}
+
+#typed {
+    color: white;
+    font-family: 'Abril face';
+    font-size:50px;
+}
+
+
+/*************************************************************/
+
+.section1 {
+    display: flex;
+   border: 1px solid white;
+    color:violet;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section1 b{
+    text-align:center;
+    color: white;
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.lupi {
+    color: white;
+    margin:50px;
+    padding:60px;
+    border: 4px violet solid;
+    font-size: 30px;
+    /*text-align:center;*/
+    background: black;
+}
+
+.section1 img{ 
+            width: 600px;
+            padding: 40px;}
+
+/************************fin de section 1***********************/
+
+.section2 {
+    display: flex;
+    border: white 1px solid;
+    
+}  
+
+.section2 b{
+    /*border: white 1px solid;*/
+    text-align: auto;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+   /* background: black;*/
+    margin: 20px;
+    padding: 20px;
+    margin-top: 20px;   
+}
+
+.section2 p{
+ 
+    color:white;
+    width: 400px;
+    font-size: 25px;
+    text-align:center;
+    padding:30px;
+    background: black;
+}
+
+.section2 span{
+    padding-top:10px ;
+}
+
+.section2 img{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        margin: 20px; 
+}   
+/************************section Shuri****************/
+.section3{
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: center;
+}
+
+.section3 b{
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    text-align:center;
+    background: black;}
+
+.section3 p {
+    border: 4px solid #1D2A67;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px;
+    color:white;
+    text-align:center;
+    background: black;
+    
+}
+.section3 img{ 
+    width: 650px;
+    padding: 50px;
+
+}
+/****************************hannah**********************************/
+
+.section4{
+    border: 1px solid black; 
+}
+
+.section4 b{
+    color:white;
+    font-size: 45px;
+    padding-top: 50px;
+    text-align:center;
+    background: black;
+}
+
+.section4 p{
+    color: white;
+    border: 5px solid violet;
+    padding: 40px;
+    margin: 40px;
+    font-size: 30px;
+    text-align:center;
+    background: black;
+}
+
+
+.milieu{
+    background: black;
+    padding-bottom: 100px;
+}
+
+.section4 img{
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+/************************/
+#carouselEx {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;}
+
+.carousel-item2 img {
+    width: 50%;
+    height: auto;}
+/************************/
+
+/***********************************************************/
+.section5{
+
+    /*padding: 20px;*/
+    display: flex;
+    /*flex-direction:*/
+}
+
+.section5 p{
+    
+    font-size: 30px;
+    color:white;
+    border:white solid 1px;
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+
+}
+
+.section5 b{
+    color:white;
+    font-size: 35px;
+    padding-top: 20px;
+    background: black;}
+
+/********************conclusion**************************************/
+
+
+
+.section6 p{
+    font-size: 30px;
+    border: 2px solid white;
+    padding-top: 20px;
+    padding: 20px;
+    margin: 20px;
+    color:white;
+    text-align: center;
+    background: black;
+}
+
+.section6 b{
+    color:white;
+    font-size: 50px;
+    padding-top: 20px;
+    background: black;
+
+}
+.section6 img{
+    display: flex;
+    justify-content: center;
+   /* align-items: flex-start;*/
+    margin: 25px;
+    width: 500px;
+}
+
+/******* carroussel*******/
+
+#carouselExemple {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;}
+
+.carousel-item img {
+    width: 50%;
+    height: auto;
+}
+
+footer{
+  
+    color: white;
+    text-decoration: black;
+    margin-bottom:20px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer a { color: violet;
+text-decoration: none;}
+
+footer b{font-size: 10px;}
+
+:hover a footer {color:violet}
+
+/*************************responsive****************************/
+
+@media screen and (max-width: 1000px) {
+   .section1 {
+       flex-direction: column;
+    }
+   .section2 {
+       flex-direction: column;
+       align-items: center;
+       
+    }
+   .section3 {
+       flex-direction: column;
+      /* font-size: 50px;   */
+       align-items: center;
+    }
+
+   
+
+   .section5 {
+       flex-direction: column;
+       align-items: center;
+    }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
